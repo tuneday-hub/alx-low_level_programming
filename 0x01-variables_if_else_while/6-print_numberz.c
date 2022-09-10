@@ -11,7 +11,7 @@ int main(void)
 	int m;
 
 	for (m = 0; m < 10; m++)
-		putchar(d);
+		putchar(m);
 	putchar('\n');
 	return (0);
 }
