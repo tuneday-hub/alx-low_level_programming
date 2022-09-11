@@ -18,7 +18,7 @@ int main(void)
 			{
 				putchar(r);
 				putchar(i);
-				if (r != '8' && i != '9')
+				if (r != '8' || i != '9')
 				{
 					putchar(',');
 					putchar(' ');
