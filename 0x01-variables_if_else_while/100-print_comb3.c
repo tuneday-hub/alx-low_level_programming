@@ -18,8 +18,11 @@ int main(void)
 			{
 				putchar(r);
 				putchar(i);
-				putchar(',');
-				putchar(' ');
+				if (r != '8' && i != '9')
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
