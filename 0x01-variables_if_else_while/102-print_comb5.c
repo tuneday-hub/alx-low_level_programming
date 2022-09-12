@@ -28,4 +28,5 @@ int main(void)
 		} /*exit for first loop*/
 	} /*exit for second loop*/
 	putchar('\n'); /*prints new line*/
+	return (0);
 }
