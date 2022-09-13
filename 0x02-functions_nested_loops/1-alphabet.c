@@ -6,8 +6,15 @@
  * author: tuneday
  * Return: nothing, just void
  */
-void print_alphabet(void)
+void print_alphabet(void);
 {
-	for (i = 'a'; i <= 'z'; i++)
-		_putchar(i);
+
+	char t = 'a';
+
+	while (t <= 'z')
+	{
+		_putchar(t);
+		t++;
+	}
+	_putchar('\n');
 }
