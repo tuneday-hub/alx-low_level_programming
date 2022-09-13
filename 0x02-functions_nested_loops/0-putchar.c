@@ -1,10 +1,10 @@
 #include "main.h"
+
 /**
- * _putchar - prints _putchar
+ *main - Entry point
  *
- * Author: tuneday
- * Return: 0 if succesful
- *
+ *author: tuneday
+ *Return: 0 if succesful
  */
 int main(void)
 {
