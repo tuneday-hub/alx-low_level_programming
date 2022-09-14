@@ -3,20 +3,22 @@
 /**
  * print_alphabet_x10 - prints alphabets 10 times
  *
- * author: tuneday
+ * author:tuneday
  * Return: nothing, just void
  */
 void print_alphabet_x10(void)
 {
-	char a = '0', t;
+	int a = 0;
+	char b;
 
-	while (a <= '9')
+	while (a <= 9)
 	{
-		t = 'a';
-		while (t <= 'z')
+		b = 'a';
+
+		while (b <= 'z')
 		{
-			_putchar(t);
-			t++;
+			_putchar(b);
+			b++;
 		}
 		a++;
 	}
