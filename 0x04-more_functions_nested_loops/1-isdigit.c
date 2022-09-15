@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _isdigit - checks if an entry is a digit between 0 and 9
- * @c: the parameter to be compared
+ * _isdigit - a function that checks for a digit
+ * @c: the parameter to be checked
  * author: tuneday
- * Return: 1 if c is a digit, otherwise 0
+ * Return: 1 if entry is a number, otherwise 0
  */
 int _isdigit(int c)
 {
