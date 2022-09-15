@@ -1,6 +1,8 @@
 #ifndef MAIN_HEADER_INCLUDED
 #define MAIN_HEADER_INCLUDED
 
+int _putchar(char c);
+
 int _isupper(int c);
 
 int _isdigit(int c);
