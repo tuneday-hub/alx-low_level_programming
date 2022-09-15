@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
  * main - prints fizz buzz
@@ -33,4 +33,5 @@ int main(void)
 			printf("%d ", i);
 		}
 	}
+	return (0);
 }
