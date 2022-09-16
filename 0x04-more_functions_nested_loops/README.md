@@ -7,3 +7,4 @@ Write a function that prints a square, followed by a new line
 The FizzBuzz test
 Write a function that checks for uppercase character
 Write a function that prints an integer
+The prime factors
