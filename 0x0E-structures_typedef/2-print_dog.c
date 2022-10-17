@@ -8,7 +8,10 @@
  */
 void print_dog(struct dog *d)
 {
-	if (d)
+	if (d == NULL)
+	{
+	}
+	else
 	{
 		if (d->name == NULL)
 		{
@@ -18,14 +21,8 @@ void print_dog(struct dog *d)
 		{
 			printf("Name: %s\n", d->name);
 		}
-		if (d->age == NULL)
-		{
-			printf("Age: (nil)\n");
-		}
-		else
-		{
-			printf("Age: %f\n", d->age);
-		}
+		/** its impossible to print age as nil coz its a float*/
+		printf("Age: %f\n", d->age);
 		if (d->owner == NULL)
 		{
 			printf("Owner: (nil)\n");
