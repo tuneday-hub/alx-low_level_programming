@@ -19,10 +19,13 @@ unsigned int _strspn(char *s, char *accept)
 				matches++;
 				break;
 			}
+
 			if (accept[j + 1] == '\0' && s[i] != accept[j])
-				return (matches);/*return if idx doesn't match*/
+				return (matches); /*return if idx doesn't match*/
 		}
+
 		i++;
 	}
+
 	return (matches); /* return num if all match till end */
 }	
