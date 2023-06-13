@@ -1,1 +1,0 @@
-C dynamic memory allocation
