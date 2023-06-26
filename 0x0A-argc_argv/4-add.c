@@ -26,9 +26,9 @@ int main(int argc, char *argv[])
 				sum = "";
 				printf("Error\n");
 
-				return (1);
-
 				break;
+
+				return (1);
 			}
 			else
 			{ 
