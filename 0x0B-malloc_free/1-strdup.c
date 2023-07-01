@@ -20,12 +20,12 @@ char *_strdup(char *str)
 
 	rtnPtr = (char *) malloc((lenOfStr * sizeof(char)) + 1);
 
-	if (str == NULL)
+	if (str == 0)
 	{
 		return (NULL);
 	}
 	
-	if (rtnPtr == NULL)
+	if (rtnPtr == 0)
 	{
 		return (NULL);
 	}
