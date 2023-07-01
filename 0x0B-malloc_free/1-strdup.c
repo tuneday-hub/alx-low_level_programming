@@ -29,7 +29,7 @@ char *_strdup(char *str)
 	}
 	else
 	{
-		for (count = 0; count < (lenOfStr + 1); count++)
+		for (count = 0; count < lenOfStr; count++)
 		{
 			rtnPtr[count] = str[count];
 		}
