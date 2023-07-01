@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 /**
  * _strdup - array for prints a string
@@ -29,7 +31,7 @@ char *_strdup(char *str)
 	}
 	else
 	{
-		for (count = 0; str[count] != '\0'; count++)
+		for (count = 0; count < lenOfStr; count++)
 		{
 			rtnPtr[count] = str[count];
 		}
