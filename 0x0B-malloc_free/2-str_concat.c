@@ -1,29 +1,5 @@
 #include "main.h"
 /**
- * _strconcat - concatenates two strings
- * @s1: first array of characters
- * @s2: second array of characters
- * Return: a char
- */
-char *_strconcat(char *s1, char *s2)
-{
-	unsigned int i, j;
-
-	for (i = 0; s1[i] != '\0'; i++)
-	{
-		s1[i] = s1[i];
-	}
-	for (j = 0; s2[j] != '\0'; j++)
-	{
-		s1[i] = s2[0];
-		i++;
-	}
-	s1[i] = '\0';
-
-	return (s1);
-}
-
-/**
  * _strlen - count array
  * @s: array of characters
  * Return: i
@@ -50,6 +26,7 @@ int _strlen(char *s)
 char *str_concat(char *s1, char *s2)
 {
 	char *rtnPtr;
+	unsigned int i, j;
 
 	if (s1 == NULL)
 	{
@@ -69,7 +46,14 @@ char *str_concat(char *s1, char *s2)
 	}
 	else
 	{
-		rtnPtr = _strconcat(s1, s2);
+		for (i = 0; s1[i] != '\0'; i++)
+			rtnPtr[i] = *(s1 + i);
+
+		for (j = 0; s2[j] != '\0'; j++)
+		{
+			rtnPtr[i] = s2[i];
+			i++
+		}
 
 		return(rtnPtr);
 	}
